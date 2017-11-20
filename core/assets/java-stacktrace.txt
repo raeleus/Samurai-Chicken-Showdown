@@ -1,0 +1,251 @@
+com.badlogic.gdx.utils.GdxRuntimeException: com.badlogic.gdx.utils.GdxRuntimeException: Couldn't load dependencies of asset: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.assets.AssetManager.handleTaskError(AssetManager.java:582)
+	at com.badlogic.gdx.assets.AssetManager.update(AssetManager.java:383)
+	at com.ray3k.vaultbound.states.LoadingState.act(LoadingState.java:78)
+	at com.ray3k.samuraichickenshowdown.StateManager.act(StateManager.java:52)
+	at com.ray3k.samuraichickenshowdown.Core.render(Core.java:145)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: Couldn't load dependencies of asset: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader(AssetLoadingTask.java:121)
+	at com.badlogic.gdx.assets.AssetLoadingTask.update(AssetLoadingTask.java:90)
+	at com.badlogic.gdx.assets.AssetManager.updateTask(AssetManager.java:507)
+	at com.badlogic.gdx.assets.AssetManager.update(AssetManager.java:381)
+	... 5 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: com.badlogic.gdx.utils.GdxRuntimeException: Error creating sound com.badlogic.gdx.backends.lwjgl.audio.Wav$Sound for file: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.utils.async.AsyncResult.get(AsyncResult.java:46)
+	at com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader(AssetLoadingTask.java:119)
+	... 8 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: Error creating sound com.badlogic.gdx.backends.lwjgl.audio.Wav$Sound for file: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.backends.lwjgl.audio.OpenALAudio.newSound(OpenALAudio.java:119)
+	at com.badlogic.gdx.backends.lwjgl.audio.OpenALAudio.newSound(OpenALAudio.java:41)
+	at com.badlogic.gdx.assets.loaders.SoundLoader.loadAsync(SoundLoader.java:48)
+	at com.badlogic.gdx.assets.loaders.SoundLoader.loadAsync(SoundLoader.java:29)
+	at com.badlogic.gdx.assets.AssetLoadingTask.call(AssetLoadingTask.java:70)
+	at com.badlogic.gdx.assets.AssetLoadingTask.call(AssetLoadingTask.java:34)
+	at com.badlogic.gdx.utils.async.AsyncExecutor$2.call(AsyncExecutor.java:58)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.badlogic.gdx.backends.lwjgl.audio.OpenALAudio.newSound(OpenALAudio.java:117)
+	... 10 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: Error reading WAV file: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.backends.lwjgl.audio.Wav$WavInputStream.<init>(Wav.java:133)
+	at com.badlogic.gdx.backends.lwjgl.audio.Wav$Sound.<init>(Wav.java:63)
+	... 15 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: WAV files must have 16 bits per sample: 24
+	at com.badlogic.gdx.backends.lwjgl.audio.Wav$WavInputStream.<init>(Wav.java:126)
+	... 16 more
+com.badlogic.gdx.utils.GdxRuntimeException: com.badlogic.gdx.utils.GdxRuntimeException: Couldn't load dependencies of asset: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.assets.AssetManager.handleTaskError(AssetManager.java:582)
+	at com.badlogic.gdx.assets.AssetManager.update(AssetManager.java:383)
+	at com.ray3k.samuraichickenshowdown.states.LoadingState.act(LoadingState.java:78)
+	at com.ray3k.samuraichickenshowdown.StateManager.act(StateManager.java:52)
+	at com.ray3k.samuraichickenshowdown.Core.render(Core.java:145)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: Couldn't load dependencies of asset: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader(AssetLoadingTask.java:121)
+	at com.badlogic.gdx.assets.AssetLoadingTask.update(AssetLoadingTask.java:90)
+	at com.badlogic.gdx.assets.AssetManager.updateTask(AssetManager.java:507)
+	at com.badlogic.gdx.assets.AssetManager.update(AssetManager.java:381)
+	... 5 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: com.badlogic.gdx.utils.GdxRuntimeException: Error creating sound com.badlogic.gdx.backends.lwjgl.audio.Wav$Sound for file: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.utils.async.AsyncResult.get(AsyncResult.java:46)
+	at com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader(AssetLoadingTask.java:119)
+	... 8 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: Error creating sound com.badlogic.gdx.backends.lwjgl.audio.Wav$Sound for file: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.backends.lwjgl.audio.OpenALAudio.newSound(OpenALAudio.java:119)
+	at com.badlogic.gdx.backends.lwjgl.audio.OpenALAudio.newSound(OpenALAudio.java:41)
+	at com.badlogic.gdx.assets.loaders.SoundLoader.loadAsync(SoundLoader.java:48)
+	at com.badlogic.gdx.assets.loaders.SoundLoader.loadAsync(SoundLoader.java:29)
+	at com.badlogic.gdx.assets.AssetLoadingTask.call(AssetLoadingTask.java:70)
+	at com.badlogic.gdx.assets.AssetLoadingTask.call(AssetLoadingTask.java:34)
+	at com.badlogic.gdx.utils.async.AsyncExecutor$2.call(AsyncExecutor.java:58)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.badlogic.gdx.backends.lwjgl.audio.OpenALAudio.newSound(OpenALAudio.java:117)
+	... 10 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: Error reading WAV file: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.backends.lwjgl.audio.Wav$WavInputStream.<init>(Wav.java:133)
+	at com.badlogic.gdx.backends.lwjgl.audio.Wav$Sound.<init>(Wav.java:63)
+	... 15 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: WAV files must have 16 bits per sample: 24
+	at com.badlogic.gdx.backends.lwjgl.audio.Wav$WavInputStream.<init>(Wav.java:126)
+	... 16 more
+com.badlogic.gdx.utils.GdxRuntimeException: com.badlogic.gdx.utils.GdxRuntimeException: Couldn't load dependencies of asset: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.assets.AssetManager.handleTaskError(AssetManager.java:582)
+	at com.badlogic.gdx.assets.AssetManager.update(AssetManager.java:383)
+	at com.ray3k.samuraichickenshowdown.states.LoadingState.act(LoadingState.java:78)
+	at com.ray3k.samuraichickenshowdown.StateManager.act(StateManager.java:52)
+	at com.ray3k.samuraichickenshowdown.Core.render(Core.java:145)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: Couldn't load dependencies of asset: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader(AssetLoadingTask.java:121)
+	at com.badlogic.gdx.assets.AssetLoadingTask.update(AssetLoadingTask.java:90)
+	at com.badlogic.gdx.assets.AssetManager.updateTask(AssetManager.java:507)
+	at com.badlogic.gdx.assets.AssetManager.update(AssetManager.java:381)
+	... 5 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: com.badlogic.gdx.utils.GdxRuntimeException: Error creating sound com.badlogic.gdx.backends.lwjgl.audio.Wav$Sound for file: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.utils.async.AsyncResult.get(AsyncResult.java:46)
+	at com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader(AssetLoadingTask.java:119)
+	... 8 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: Error creating sound com.badlogic.gdx.backends.lwjgl.audio.Wav$Sound for file: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.backends.lwjgl.audio.OpenALAudio.newSound(OpenALAudio.java:119)
+	at com.badlogic.gdx.backends.lwjgl.audio.OpenALAudio.newSound(OpenALAudio.java:41)
+	at com.badlogic.gdx.assets.loaders.SoundLoader.loadAsync(SoundLoader.java:48)
+	at com.badlogic.gdx.assets.loaders.SoundLoader.loadAsync(SoundLoader.java:29)
+	at com.badlogic.gdx.assets.AssetLoadingTask.call(AssetLoadingTask.java:70)
+	at com.badlogic.gdx.assets.AssetLoadingTask.call(AssetLoadingTask.java:34)
+	at com.badlogic.gdx.utils.async.AsyncExecutor$2.call(AsyncExecutor.java:58)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.badlogic.gdx.backends.lwjgl.audio.OpenALAudio.newSound(OpenALAudio.java:117)
+	... 10 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: Error reading WAV file: samurai_chicken_showdown_data/sfx/slash.wav
+	at com.badlogic.gdx.backends.lwjgl.audio.Wav$WavInputStream.<init>(Wav.java:133)
+	at com.badlogic.gdx.backends.lwjgl.audio.Wav$Sound.<init>(Wav.java:63)
+	... 15 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: WAV files must have 16 bits per sample: 24
+	at com.badlogic.gdx.backends.lwjgl.audio.Wav$WavInputStream.<init>(Wav.java:126)
+	... 16 more
+com.badlogic.gdx.utils.GdxRuntimeException: No Drawable, NinePatch, TextureRegion, Texture, or Sprite registered with name: bg
+	at com.badlogic.gdx.scenes.scene2d.ui.Skin.getDrawable(Skin.java:306)
+	at com.badlogic.gdx.scenes.scene2d.ui.Table.setBackground(Table.java:137)
+	at com.ray3k.samuraichickenshowdown.states.MenuState.createMenu(MenuState.java:68)
+	at com.ray3k.samuraichickenshowdown.states.MenuState.start(MenuState.java:63)
+	at com.ray3k.samuraichickenshowdown.StateManager.loadState(StateManager.java:70)
+	at com.ray3k.samuraichickenshowdown.states.LoadingState$1.act(LoadingState.java:85)
+	at com.badlogic.gdx.scenes.scene2d.actions.SequenceAction.act(SequenceAction.java:65)
+	at com.badlogic.gdx.scenes.scene2d.Actor.act(Actor.java:96)
+	at com.badlogic.gdx.scenes.scene2d.Group.act(Group.java:46)
+	at com.badlogic.gdx.scenes.scene2d.Group.act(Group.java:49)
+	at com.badlogic.gdx.scenes.scene2d.Stage.act(Stage.java:221)
+	at com.ray3k.samuraichickenshowdown.states.LoadingState.act(LoadingState.java:77)
+	at com.ray3k.samuraichickenshowdown.StateManager.act(StateManager.java:52)
+	at com.ray3k.samuraichickenshowdown.Core.render(Core.java:145)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
+java.lang.IllegalStateException: SpriteBatch.begin must be called before draw.
+	at com.badlogic.gdx.graphics.g2d.SpriteBatch.draw(SpriteBatch.java:597)
+	at com.badlogic.gdx.graphics.g2d.SpriteBatch.draw(SpriteBatch.java:592)
+	at com.ray3k.samuraichickenshowdown.states.GameState.draw(GameState.java:126)
+	at com.ray3k.samuraichickenshowdown.StateManager.draw(StateManager.java:46)
+	at com.ray3k.samuraichickenshowdown.Core.render(Core.java:149)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
+com.badlogic.gdx.utils.GdxRuntimeException: com.badlogic.gdx.utils.GdxRuntimeException: Couldn't load asset: samurai_chicken_showdown_data/spine/exclamation.json
+	at com.badlogic.gdx.assets.AssetManager.handleTaskError(AssetManager.java:582)
+	at com.badlogic.gdx.assets.AssetManager.update(AssetManager.java:383)
+	at com.ray3k.samuraichickenshowdown.states.LoadingState.act(LoadingState.java:78)
+	at com.ray3k.samuraichickenshowdown.StateManager.act(StateManager.java:52)
+	at com.ray3k.samuraichickenshowdown.Core.render(Core.java:145)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: Couldn't load asset: samurai_chicken_showdown_data/spine/exclamation.json
+	at com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader(AssetLoadingTask.java:139)
+	at com.badlogic.gdx.assets.AssetLoadingTask.update(AssetLoadingTask.java:90)
+	at com.badlogic.gdx.assets.AssetManager.updateTask(AssetManager.java:507)
+	at com.badlogic.gdx.assets.AssetManager.update(AssetManager.java:381)
+	... 5 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: com.badlogic.gdx.utils.SerializationException: Error reading attachment: exclamation, skin: default
+	at com.badlogic.gdx.utils.async.AsyncResult.get(AsyncResult.java:46)
+	at com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader(AssetLoadingTask.java:137)
+	... 8 more
+Caused by: com.badlogic.gdx.utils.SerializationException: Error reading attachment: exclamation, skin: default
+	at com.esotericsoftware.spine.SkeletonJson.readSkeletonData(SkeletonJson.java:268)
+	at com.ray3k.samuraichickenshowdown.SkeletonDataLoader.loadAsync(SkeletonDataLoader.java:78)
+	at com.ray3k.samuraichickenshowdown.SkeletonDataLoader.loadAsync(SkeletonDataLoader.java:57)
+	at com.badlogic.gdx.assets.AssetLoadingTask.call(AssetLoadingTask.java:74)
+	at com.badlogic.gdx.assets.AssetLoadingTask.call(AssetLoadingTask.java:34)
+	at com.badlogic.gdx.utils.async.AsyncExecutor$2.call(AsyncExecutor.java:58)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: Region not found in atlas: exclamation (region attachment: exclamation)
+	at com.esotericsoftware.spine.attachments.AtlasAttachmentLoader.newRegionAttachment(AtlasAttachmentLoader.java:53)
+	at com.esotericsoftware.spine.SkeletonJson.readAttachment(SkeletonJson.java:324)
+	at com.esotericsoftware.spine.SkeletonJson.readSkeletonData(SkeletonJson.java:265)
+	... 9 more
+com.badlogic.gdx.utils.GdxRuntimeException: com.badlogic.gdx.utils.GdxRuntimeException: Couldn't load asset: samurai_chicken_showdown_data/spine/too-early.json
+	at com.badlogic.gdx.assets.AssetManager.handleTaskError(AssetManager.java:582)
+	at com.badlogic.gdx.assets.AssetManager.update(AssetManager.java:383)
+	at com.ray3k.samuraichickenshowdown.states.LoadingState.act(LoadingState.java:78)
+	at com.ray3k.samuraichickenshowdown.StateManager.act(StateManager.java:52)
+	at com.ray3k.samuraichickenshowdown.Core.render(Core.java:145)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: Couldn't load asset: samurai_chicken_showdown_data/spine/too-early.json
+	at com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader(AssetLoadingTask.java:139)
+	at com.badlogic.gdx.assets.AssetLoadingTask.update(AssetLoadingTask.java:90)
+	at com.badlogic.gdx.assets.AssetManager.updateTask(AssetManager.java:507)
+	at com.badlogic.gdx.assets.AssetManager.update(AssetManager.java:381)
+	... 5 more
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: com.badlogic.gdx.utils.SerializationException: Error reading attachment: Too Early, skin: default
+	at com.badlogic.gdx.utils.async.AsyncResult.get(AsyncResult.java:46)
+	at com.badlogic.gdx.assets.AssetLoadingTask.handleAsyncLoader(AssetLoadingTask.java:137)
+	... 8 more
+Caused by: com.badlogic.gdx.utils.SerializationException: Error reading attachment: Too Early, skin: default
+	at com.esotericsoftware.spine.SkeletonJson.readSkeletonData(SkeletonJson.java:268)
+	at com.ray3k.samuraichickenshowdown.SkeletonDataLoader.loadAsync(SkeletonDataLoader.java:78)
+	at com.ray3k.samuraichickenshowdown.SkeletonDataLoader.loadAsync(SkeletonDataLoader.java:57)
+	at com.badlogic.gdx.assets.AssetLoadingTask.call(AssetLoadingTask.java:74)
+	at com.badlogic.gdx.assets.AssetLoadingTask.call(AssetLoadingTask.java:34)
+	at com.badlogic.gdx.utils.async.AsyncExecutor$2.call(AsyncExecutor.java:58)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: Region not found in atlas: Too Early (region attachment: Too Early)
+	at com.esotericsoftware.spine.attachments.AtlasAttachmentLoader.newRegionAttachment(AtlasAttachmentLoader.java:53)
+	at com.esotericsoftware.spine.SkeletonJson.readAttachment(SkeletonJson.java:324)
+	at com.esotericsoftware.spine.SkeletonJson.readSkeletonData(SkeletonJson.java:265)
+	... 9 more
+com.badlogic.gdx.utils.GdxRuntimeException: No Drawable, NinePatch, TextureRegion, Texture, or Sprite registered with name: bg
+	at com.badlogic.gdx.scenes.scene2d.ui.Skin.getDrawable(Skin.java:306)
+	at com.badlogic.gdx.scenes.scene2d.ui.Table.setBackground(Table.java:137)
+	at com.ray3k.samuraichickenshowdown.states.GameOverState.refreshTable(GameOverState.java:106)
+	at com.ray3k.samuraichickenshowdown.states.GameOverState.start(GameOverState.java:58)
+	at com.ray3k.samuraichickenshowdown.StateManager.loadState(StateManager.java:70)
+	at com.ray3k.samuraichickenshowdown.entities.GameOverTimerEntity.act(GameOverTimerEntity.java:50)
+	at com.ray3k.samuraichickenshowdown.EntityManager.act(EntityManager.java:64)
+	at com.ray3k.samuraichickenshowdown.states.GameState.act(GameState.java:172)
+	at com.ray3k.samuraichickenshowdown.StateManager.act(StateManager.java:52)
+	at com.ray3k.samuraichickenshowdown.Core.render(Core.java:145)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
+com.badlogic.gdx.utils.GdxRuntimeException: Asset not loaded: winner
+	at com.badlogic.gdx.assets.AssetManager.get(AssetManager.java:153)
+	at com.ray3k.samuraichickenshowdown.SpineEntity.setSkeletonData(SpineEntity.java:49)
+	at com.ray3k.samuraichickenshowdown.entities.WinnerEntity.create(WinnerEntity.java:53)
+	at com.ray3k.samuraichickenshowdown.EntityManager.addEntity(EntityManager.java:41)
+	at com.ray3k.samuraichickenshowdown.entities.ExclamationEntity.actSub(ExclamationEntity.java:80)
+	at com.ray3k.samuraichickenshowdown.SpineEntity.act(SpineEntity.java:70)
+	at com.ray3k.samuraichickenshowdown.EntityManager.act(EntityManager.java:64)
+	at com.ray3k.samuraichickenshowdown.states.GameState.act(GameState.java:174)
+	at com.ray3k.samuraichickenshowdown.StateManager.act(StateManager.java:52)
+	at com.ray3k.samuraichickenshowdown.Core.render(Core.java:145)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
